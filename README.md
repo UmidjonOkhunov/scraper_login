@@ -6,6 +6,7 @@
 * pip install scrapy
 * https://github.com/scrapy-plugins/scrapy-splash[https://github.com/scrapy-plugins/scrapy-splash]
 # Run
-* scrapy runspider scraper.py
+* cd myprojet/spiders
+* scrapy runspider mydomain.py
 # Export to a csv file
-* scrapy runspider scraper.py  -t csv -o FileName.csv --loglevel=INFO
+* scrapy runspider mydomain.py  -t csv -o FileName.csv --loglevel=INFO
